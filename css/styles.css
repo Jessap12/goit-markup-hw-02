@@ -7,6 +7,7 @@
 .logo span{
     color:#4D5AE5 ;
 }
+
 ul li {
     list-style-type: none;
     color: #2E2F42;
@@ -31,15 +32,15 @@ ul {
     padding-inline-start: 0;
     margin: 0;
 }
-
-a {
+a{
     text-decoration: none;
-    color: inherit;
+    color: black;
+
+}
+a:hover{
+    color: blue;    
 }
 
-a.active {
-    color: blue;
-}
 
 .c1 {
     background-color:#2E2F42 ;
@@ -88,4 +89,7 @@ footer p{
     line-height: 24px; /* 150% */
     letter-spacing: 0.32px;
     color: white;
+}
+footer p:hover{
+    color: blue;
 }
